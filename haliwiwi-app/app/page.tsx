@@ -1,9 +1,13 @@
-
+import Hero from "@/components/UI/Hero";
+import Creations from "@/components/Sections/Creations";
+import Footer from "@/components/UI/Footer";
 
 export default function Home() {
   return (
     <div>
-      <h1>Accueil</h1>
+      <Hero />
+      <Creations />
+      <Footer />
     </div>
   );
 }
